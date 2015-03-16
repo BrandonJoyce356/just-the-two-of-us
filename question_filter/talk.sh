@@ -1,6 +1,8 @@
 #!/bin/bash
 clear
 
+echo "colorscheme github" >> ~/.vimrc
+
 vimdiff version_1.rb version_2.rb
 vimdiff version_2.rb version_3.rb
 vimdiff version_3.rb version_4.rb
